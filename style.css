@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #455a64;
+}
+
+button {
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    margin: 2%;
+    background-color: #03a9f4;
+    padding: 3.2rem;
+    box-shadow: 2px 2px 7px #333;
+    cursor: pointer;
+}
+
+svg {
+    fill: white;
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+.remote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
